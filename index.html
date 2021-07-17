@@ -13,7 +13,7 @@
         <script type="text/javascript" src="./Love_files/jscex-async-powerpack.min.js"></script>
         <script type="text/javascript" src="./Love_files/functions.js" charset="utf-8"></script>
         <script type="text/javascript" src="./Love_files/love.js" charset="utf-8"></script>
-
+	
     </head>
     <body>
         <div id="main">
@@ -41,18 +41,19 @@
                         <span class="say">都是我们一辈子最美的回忆。</span><br>
                          <span class="say">我愿意爱你直到老去！</span><br>
                    <br>
-                    <span class="say"><span class="space"></span> -- Yours, 你的名字.</span>
+                    <span class="say"><span class="space"></span> -- By yours, Herrn.</span>
                     </div>
                 </div>
                 <div id="clock-box">
-                    <a href="你的个人链接" target="_blank">@你的名字</a> 与 <a href="你的个人链接" target="_blank">@你的那个她</a> 在一起的
+                    <a target="_blank">Herrn</a> 与 <a target="_blank">Sherrn</a> 在一起的
                         <div id="clock"></div>
                 </div>
                 <canvas id="canvas" width="1100" height="680"></canvas>
             </div>
-            <audio src="love.mp3" autoplay="autoplay"></audio>
+            <embed src="https://music.163.com/outchain/player?type=2&id=519136840&auto=1&height=66" hidden="true" autostart="true" loop="true">
         </div>
-    
+	
+	
     <script>
     </script>
 
@@ -185,11 +186,11 @@
             }
         }));
 
-        var textAnimate = eval(Jscex.compile("async", function () {
+            var textAnimate = eval(Jscex.compile("async", function () {
             var together = new Date();
-            together.setFullYear(2021, 4, 10);
-            together.setHours(20);
-            together.setMinutes(20);
+            together.setFullYear(2021, 3, 25);
+            together.setHours(19);
+            together.setMinutes(30);
             together.setSeconds(0);
             together.setMilliseconds(0);
 
@@ -200,6 +201,8 @@
                 $await(Jscex.Async.sleep(1000));
             }
         }));
+        
+		
 
         var runAsync = eval(Jscex.compile("async", function () {
             $await(seedAnimate());
